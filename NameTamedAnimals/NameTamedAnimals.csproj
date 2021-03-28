@@ -87,7 +87,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\icon.png">
+    <Content Include="icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="manifest.json">
@@ -98,7 +98,7 @@
     </Content>
   </ItemGroup>
   <PropertyGroup>
-    <PostBuildEvent>"C:\Program Files\7-Zip\7z.exe" u -tzip ..\$(ProjectName).zip "$(TargetDir)*.dll" "$(TargetDir)*.pdb" "$(TargetDir)manifest.json" "$(TargetDir)README.md" "$(TargetDir)icon.png"</PostBuildEvent>
+    <PostBuildEvent>"C:\Program Files\7-Zip\7z.exe" u -tzip ..\$(ProjectName).zip "$(ProjectName).dll" "$(TargetDir)manifest.json" "$(TargetDir)README.md" "$(TargetDir)icon.png"</PostBuildEvent>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
