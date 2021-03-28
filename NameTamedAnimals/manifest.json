@@ -1,21 +1,7 @@
 {
-  "ManifestVersion": 2,
-  "AuthorName": "Barril",
-  "Name": "Barril-NameTamedAnimals",
-  "DisplayName": "NameTamedAnimals",
-  "Version": "1.0.0",
-  "Licence": "",
-  "WebsiteURL": "https://github.com/Barril/ValheimMods/",
-  "Description": "Lets you name your tamed animals.",
-  "GameVersion": "N/A",
-  "Dependencies": [ "denikson-BepInExPack_Valheim-5.4.600" ],
-  "OptionalDependencies": [],
-  "Incompatibilities": [],
-  "NetworkMode": "both",
-  "PackageType": "mod",
-  "InstallMode": "managed",
-  "Loaders": [
-    "bepinex"
-  ],
-  "ExtraData": {}
+  "name": "NameTamedAnimals",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/Barril/ValheimMods/",
+  "description": "Lets you name your tamed animals.",
+  "dependencies": [ "denikson-BepInExPack_Valheim-5.4.900" ]
 }

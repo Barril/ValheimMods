@@ -100,4 +100,9 @@
   <PropertyGroup>
     <PostBuildEvent>"C:\Program Files\7-Zip\7z.exe" u -tzip ..\$(ProjectName).zip "$(TargetDir)*.dll" "$(TargetDir)*.pdb" "$(TargetDir)manifest.json" "$(TargetDir)README.md" "$(TargetDir)icon.png"</PostBuildEvent>
   </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties manifest_1json__JsonSchema="" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
