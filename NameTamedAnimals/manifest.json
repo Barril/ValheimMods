@@ -5,7 +5,7 @@
   "DisplayName": "NameTamedAnimals",
   "Version": "1.0.0",
   "Licence": "",
-  "WebsiteURL": "",
+  "WebsiteURL": "https://github.com/Barril/ValheimMods/",
   "Description": "Lets you name your tamed animals.",
   "GameVersion": "N/A",
   "Dependencies": [ "denikson-BepInExPack_Valheim-5.4.600" ],
